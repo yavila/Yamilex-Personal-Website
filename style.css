@@ -132,13 +132,15 @@ p a:hover {
 }
 
 a.email {
-    margin-top: 25px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 35px 0 0 0;
     float: right;
     text-align: right;
     color: white;
     font-family: 'Raleway', sans-serif;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 16px;
     -webkit-transition: opacity 0.3s ease;
     transition: opacity 0.3s ease;
 }
@@ -150,6 +152,29 @@ a.email:hover {
 
 button:focus, input:focus, textarea:focus {
     outline: none;
+}
+
+.resume_button {
+    margin-top: 0;
+    margin-bottom: 20px;
+    background: transparent;
+    border: 1px solid #fff;
+    font-size: 12px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 6px 90px 6px 90px;
+    border-radius: 0;
+}
+
+.resume_button:focus {
+    color: #fff;
+}
+
+.resume_button:hover {
+    background-color: #fff;
+    color: rgb(44, 62, 80);
 }
 
 
@@ -472,6 +497,9 @@ p {
     padding-bottom: 25px;
 }
 
+.contact-p {
+    padding-bottom: 10px;
+}
 
 .contact-col {
 width: 50%;
@@ -607,6 +635,7 @@ button {
     text-transform: uppercase;
     letter-spacing: 2px;
     padding: 12px;
+    border-radius: 20px;
 }
 
 .slide_button:focus {
@@ -1023,7 +1052,8 @@ button {
 /*Not sure if I should keep these changes*/
 @media(max-width: 480px) {
     .zoomer_image {
-        max-width: 75%;
+        /*max-width: 75%;*/
+        max-width: 50%;
         width: 100% !important;
     }
 }
@@ -1033,32 +1063,34 @@ button {
 
 /* CONTACT ME - Small */
 
-@media(max-width: 480px) {
+@media(max-width: 600px) {
     #contact-me {
         text-align: center;
     }
 }
 
-@media(max-width: 480px) {
+@media(max-width: 600px) {
     a.email {
+        margin-top: 40px;
         font-size: 18px;
         float: none;
-    }
-}
-
-@media(max-width: 480px) {
-    .contact-p {
         text-align: center;
     }
 }
 
-@media(max-width: 480px) {
+@media(max-width: 600px) {
+    .contact-p {
+        margin-top: 40px;
+        text-align: center;
+    }
+}
+
+@media(max-width: 600px) {
     .icons {
         float: none;
         text-align: center;
     }
 }
-
 
 
 

@@ -267,7 +267,7 @@
 		// animate the current element out
 		dynamics.animate(currentEl, { opacity: 0, translateX: dir === 'right' ? -1*currentEl.offsetWidth/2 : currentEl.offsetWidth/2, rotateZ: dir === 'right' ? -10 : 10 }, {
 			type: dynamics.spring,
-			duration: 2000,
+			duration: 750,
 			friction: 600,
 			complete: function() {
 				dynamics.css(itemCurrent, { opacity: 0, visibility: 'hidden' });
