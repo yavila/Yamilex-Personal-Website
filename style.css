@@ -131,8 +131,6 @@ p a:hover {
     border-bottom: 1px solid rgb(0, 158, 173);
 }
 
-
-
 a.email {
     margin-top: 25px;
     float: right;
@@ -149,8 +147,6 @@ a.email:hover {
     opacity: 0.6;
     text-decoration: none;
 }
-
-
 
 button:focus, input:focus, textarea:focus {
     outline: none;
@@ -611,6 +607,10 @@ button {
     text-transform: uppercase;
     letter-spacing: 2px;
     padding: 12px;
+}
+
+.slide_button:focus {
+    color: #fff;
 }
 
 .slide_button:hover {
