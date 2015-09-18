@@ -4,6 +4,7 @@ body, html {
     height: 100%;
     width: 100%;
     min-height: 100%;
+    overflow-x: 0px;
 }
 
 .site-wrapper {
@@ -1066,6 +1067,14 @@ button {
 @media(max-width: 600px) {
     #contact-me {
         text-align: center;
+    }
+}
+
+
+
+@media(max-width:600px) {
+    .resume_button {
+        padding: 6px 60px 6px 60px;
     }
 }
 
