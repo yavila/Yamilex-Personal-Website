@@ -18,12 +18,8 @@ body, html {
 }
 
 .back-image {
-
-    /*background-image: url('images/city.jpg');*/
     background: rgb(103, 65, 114);
-    /*background: rgb(174, 168, 211);*/
     background-size: cover;
-
     width: 100%;
     height: 75%;
     position: absolute;
@@ -31,9 +27,6 @@ body, html {
 }
 
 #home-content {
-    /*background-color: rgb(62, 42, 67);*/
-    /*#6DB3F2*/
-    /*background-image: url('images/city3.jpg') bottom center no-repeat;*/
     background: rgb(197, 250, 255) url('images/city4.jpg') center no-repeat;
     position: absolute;
     width: 100%;
@@ -46,7 +39,6 @@ body, html {
 }
 
 header {
-    /*text-align: center;*/
     height: 100%;
 }
 
@@ -61,10 +53,7 @@ header {
     border-radius: 100px;
     border: 5px solid #fff;
     background: #fff;
-    /*width: 75%;*/
     margin: 1em 10em;
-
-
 }
 
 nav {
@@ -204,34 +193,12 @@ button:focus, input:focus, textarea:focus {
     color: rgb(44, 62, 80);
 }
 
-
 /*a.email:link {
     color: rgb(22, 22, 22);
     text-decoration: none;
 }*/
 
-
-
-/*
-NOT SURE WHAT THESE DO -- LOOKUP LATER
-p a:active {
-    text-decoration: none;
-    color: rgb(57, 57, 57);
-    border-bottom: 1px solid rgb(130, 130, 130);
-    padding-bottom: 1px;
-}
-
-p a:visited {
-    text-decoration: none;
-    color: rgb(57, 57, 57);
-    border-bottom: 1px solid rgb(130, 130, 130);
-}*/
-
-
-
 #home-title {
-    /*background: rgba(153, 150, 142, 0.20);*/
-    /*background: rgba(255,252,246, 0.10);*/
     width: 100%;
     top: 30%;
     padding: 30px 0 30px 0;
@@ -299,10 +266,6 @@ p a:visited {
     color: white;
 }
 
-/*#first {
-    font-size: 120px;
-}*/
-
 #snippet {
     margin-top: 20px;
     font-size: 2em;
@@ -315,26 +278,17 @@ p a:visited {
 }
 
 h1 {
-    /*font-family: 'Cinzel Decorative', cursive;*/
-    /*font-family: 'Playfair Display SC', serif;*/
-
     font-family: 'Raleway', sans-serif;
     color: #5EC6E1;
-    /*font-size: 120px;*/
     font-size: 4.5em;
     font-weight: 200;
-    /*background: #fff;
-    border-radius: 100px;*/
-    /*text-shadow: 0 0 5px #000;*/
     margin: 0;
     padding: 0;
     letter-spacing: 2px;
-    /*text-transform: uppercase;*/
 }
 
 h2 {
     font-family: 'Raleway', sans-serif;
-    /*font-family: 'Cinzel Decorative', cursive;*/
     font-weight: 200;
     font-size: 50px;
     margin: 0;
@@ -406,30 +360,24 @@ li {
     padding: 8px 18px;
     color: rgb(255, 255, 255);
     background: rgb(45, 139, 202);
-    /*background: rgb(130, 87, 152);*/
     border-radius: 3px;
 }
 
 .experience {
     background: rgba(33, 117, 173, 1);
-    /*background: rgb(98, 73, 160);*/
     border-radius: 6px 6px 0 0;
 }
 
 .advanced {
     background: rgba(52, 152, 219, 1);
-    /*background: rgb(157, 117, 177);*/
 }
 
 .proficient {
     background: rgba(52, 152, 219, 1);
-    /*background: rgb(157, 117, 177);*/
-
 }
 
 .basic {
     background: rgba(52, 152, 219, 1);
-    /*background: rgb(157, 117, 177);*/
     border-radius: 0 0 6px 6px;
 }
 
@@ -472,22 +420,12 @@ li {
     padding: 0;
     margin-left: -30px;
     border-radius: 100px;
-    /*-webkit-animation: bounce 2s 1s infinite;
-    animation: bounce 2s 1s infinite;*/
-    /*-webkit-transition: all 200ms ease-in-out;
-    transition:         all 200ms ease-in-out;*/
     -moz-transition: all 0.6s ease;
     -webkit-transition: all 0.6s ease;
     transition: all 0.6s ease;
 }
 
 .scroll-button:hover {
-    /*border-radius: 100px;
-    background: rgba(77, 77, 77, 0.2) url('images/scroll.png') left top no-repeat;
-    background-size: 60px;
-    width: 60px;
-    height: 60px;
-    margin-left: -30px;*/
     opacity: 0.6;
 }
 
@@ -527,7 +465,6 @@ section {
 
 p {
     padding: 35px 0;
-    /*background-color: red;*/
     color: #777;
     font-family: 'Raleway', sans-serif;
     font-size: 16px;
@@ -536,19 +473,14 @@ p {
 
 #about-me {
     background: white;
-    /*background: rgb(234, 96, 69);*/
 }
 
 #projects {
     background: rgb(77, 175, 124);
-    /*background: #FFDA9D;*/
-    /*background: rgb(136, 178, 133);*/
 }
 
 #contact-me {
-    /*background: rgb(44, 62, 80);*/
     background: rgb(23, 53, 84);
-    /*padding-top: 10px;*/
     padding-bottom: 25px;
 }
 
@@ -563,7 +495,6 @@ width: 50%;
 .contact-col p {
     margin: 0;
     padding-top: 10px;
-    /*color: #617487;*/
     color: #B7BFC7;
 }
 
@@ -722,22 +653,16 @@ button {
 }
 
 .slider_nav {
-    /*position: absolute;
-    bottom: 2em;
-    width: 100%;
-    text-align: center;*/
     height: 0;
 }
 
 .button {
     display: block;
     position: absolute;
-    /*position: relative;*/
     font-size: 1.31em;
     top: 25%;
     display: inline-block;
     overflow: hidden;
-    /*margin: 0 40px;*/
     padding: 0;
     cursor: pointer;
     color: #fff;
@@ -1004,7 +929,7 @@ button {
 
 @media(max-width: 480px) {
     h1 {
-        font-size: 60px;
+        font-size: 40px;
     }
 }
 
@@ -1063,6 +988,21 @@ button {
     }
 }
 
+/* MAIN PAGE */
+
+@media(max-width: 480px) {
+    .profile-img {
+        width: 50%;
+        height: 50%;
+    }
+}
+
+/* white text bubble */
+@media(max-width: 480px) {
+    .text-bubble {
+        margin: 1em 3em;
+    }
+}
 
 /* ABOUT ME - Small Screens */
 
@@ -1116,8 +1056,6 @@ button {
 }
 
 
-
-
 /* CONTACT ME - Small */
 
 @media(max-width: 600px) {
@@ -1125,8 +1063,6 @@ button {
         text-align: center;
     }
 }
-
-
 
 @media(max-width:600px) {
     .resume_button {
@@ -1156,34 +1092,3 @@ button {
         text-align: center;
     }
 }
-
-
-
-
-/*///////// Bootstrap Button Settings //////////
-.btn-primary {
-    font-family: 'Raleway', sans-serif;
-    font-weight: 500;
-    font-size: 20px;
-    border-radius: 0;
-    -webkit-border-radius: 0;
-    -moz-border-radius: 0;
-    background-color: #95DCDC;
-    border-color: #95DCDC;
-}
-
-.btn-primary:hover {
-    background-color: #7BCCCC;
-    border-color: #7BCCCC;
-}
-
-.btn-primary:active {
-    background-color: #7BCCCC;
-    border-color: #63BBBB;
-}
-
-.btn-primary:focus {
-    background-color: #95DCDC;
-    border-color: #B0E9E9;
-    outline:0;
-}*/
